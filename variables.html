@@ -1,0 +1,49 @@
+<script>
+    var x= 10
+    var y = 20
+    var z = x+y
+    document.write(z)
+</script>
+
+<script>
+    function abc(){
+        var x= 50; //local variable
+    }
+</script>
+
+<script>
+if (10<13){
+    var y = 20; //javascript local variable
+}
+</script>
+
+<script>
+    var data = 200;//global variable
+    function a(){
+        document.writeln(data);
+    }
+    function b(){
+        document.writeln(data);
+    }
+    a();//calling javascript function
+    b()
+
+</script>
+
+<script>
+    function a{}{
+    window.value = 200;  //creating glbal varibale inside function
+    }
+    function b(){
+    alert(window.value)  //accessing global variable
+    }
+</script>
+
+<script>
+    var value = 200
+    function a(){
+    alert(window.value)
+    };
+    a()
+
+</script>
